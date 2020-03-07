@@ -107,6 +107,7 @@
 	new /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch(src)
 	new /obj/item/clothing/glasses/hud/security/sunglasses/gars/supergars(src)
 	new /obj/item/clothing/under/rank/head_of_security/white(src)
+	new /obj/item/clothing/shoes/magboots/security(src)
 	new /obj/item/storage/lockbox/medal/sec(src)
 	new /obj/item/megaphone/sec(src)
 	new /obj/item/holosign_creator/security(src)
