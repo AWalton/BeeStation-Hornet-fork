@@ -232,7 +232,7 @@ GLOBAL_LIST_INIT(wood_recipes, list ( \
 	resistance_flags = FLAMMABLE
 	merge_type = /obj/item/stack/sheet/mineral/wood
 	novariants = TRUE
-	grind_results = list(/datum/reagent/cellulose = 20) //no lignocellulose or lignin reagents yet,
+	grind_results = list(/datum/reagent/carbon = 20)
 
 /obj/item/stack/sheet/mineral/wood/Initialize(mapload, new_amount, merge = TRUE)
 	recipes = GLOB.wood_recipes
@@ -281,7 +281,6 @@ GLOBAL_LIST_INIT(cloth_recipes, list ( \
 	force = 0
 	throwforce = 0
 	merge_type = /obj/item/stack/sheet/cloth
-	grind_results = list(/datum/reagent/cellulose = 20)
 
 /obj/item/stack/sheet/cloth/Initialize(mapload, new_amount, merge = TRUE)
 	recipes = GLOB.cloth_recipes
@@ -326,7 +325,6 @@ GLOBAL_LIST_INIT(durathread_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/cotton
 	var/pull_effort = 30
 	var/loom_result = /obj/item/stack/sheet/cloth
-	grind_results = list(/datum/reagent/cellulose = 20)
 
 /obj/item/stack/sheet/cotton/durathread
 	name = "raw durathread bundle"
@@ -336,7 +334,6 @@ GLOBAL_LIST_INIT(durathread_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/cotton/durathread
 	pull_effort = 70
 	loom_result = /obj/item/stack/sheet/durathread
-	grind_results = list()
 
 /*
  * Bamboo
@@ -432,7 +429,6 @@ GLOBAL_LIST_INIT(cardboard_recipes, list (														\
 	throwforce = 0
 	merge_type = /obj/item/stack/sheet/cardboard
 	novariants = TRUE
-	grind_results = list(/datum/reagent/cellulose = 10)
 
 /obj/item/stack/sheet/cardboard/Initialize(mapload, new_amount, merge = TRUE)
 	recipes = GLOB.cardboard_recipes
@@ -688,7 +684,7 @@ new /datum/stack_recipe("paper frame door", /obj/structure/mineral_door/paperfra
 	item_state = "sheet-paper"
 	merge_type = /obj/item/stack/sheet/paperframes
 	resistance_flags = FLAMMABLE
-	grind_results = list(/datum/reagent/cellulose = 20)
+	merge_type = /obj/item/stack/sheet/paperframes
 
 /obj/item/stack/sheet/paperframes/Initialize()
 	recipes = GLOB.paperframe_recipes
