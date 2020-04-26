@@ -55,7 +55,7 @@
 					/obj/item/clothing/suit/hooded/wintercoat/medical = 4,
 					/obj/item/clothing/under/rank/nursesuit = 4,
 					/obj/item/clothing/head/nursehat = 4,
-					/obj/item/clothing/under/rank/medical/skirt= 4,
+					/obj/item/clothing/under/rank/medical/skirt = 4,
 					/obj/item/clothing/under/rank/medical/blue = 4,
 					/obj/item/clothing/under/rank/medical/green = 4,
 					/obj/item/clothing/under/rank/medical/purple = 4,
