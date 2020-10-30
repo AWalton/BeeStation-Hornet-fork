@@ -2,146 +2,298 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"b" = (
-/turf/closed/wall/mineral/titanium/overspace,
-/area/space)
 "c" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating/airless,
-/area/space)
-"d" = (
-/turf/closed/wall/mineral/titanium,
-/area/space)
+/obj/item/reagent_containers/food/drinks/beer{
+	pixel_x = 5;
+	pixel_y = -2
+	},
+/obj/item/toy/cards/deck/syndicate{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/structure/table/wood,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
 "f" = (
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"g" = (
-/obj/structure/chair{
-	dir = 1
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
 	},
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
+/obj/structure/chair/stool,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
 "j" = (
-/obj/machinery/door/unpowered/shuttle,
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"l" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"m" = (
-/obj/structure/chair{
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/mineral/titanium/blue,
-/area/space)
-"n" = (
-/obj/structure/shuttle/engine/heater,
-/turf/open/floor/plating/airless,
-/area/space)
-"p" = (
-/obj/structure/shuttle/engine/propulsion/left,
-/turf/open/floor/plating/airless,
-/area/space)
-"q" = (
+/obj/structure/chair/stool,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
+"k" = (
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"l" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8;
+	name = "tactical chair"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"m" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/custom/powered)
+"n" = (
+/obj/structure/grille,
+/obj/structure/window/plastitanium,
+/turf/open/floor/plating/airless,
+/area/shuttle/custom/powered)
+"o" = (
+/obj/machinery/computer/custom_shuttle,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
 "r" = (
+/obj/structure/chair/office{
+	dir = 1;
+	name = "tactical swivel chair"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"u" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
+"v" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"w" = (
+/obj/machinery/computer/shuttle/syndicate,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"x" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Cockpit";
+	req_access_txt = "150"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"y" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/custom,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"z" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/custom/powered)
+"A" = (
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"B" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater,
+/turf/open/floor/plating/airless,
+/area/shuttle/custom/powered)
+"F" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external{
+	req_access_txt = "150"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"G" = (
 /obj/structure/shuttle/engine/propulsion/right,
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/custom/powered)
+"J" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
+"K" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
+"L" = (
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"M" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/shuttle/custom/powered)
+"N" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
+"O" = (
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/toxins,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"P" = (
+/obj/machinery/atmospherics/pipe/manifold/general/visible{
+	dir = 1
+	},
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"Q" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	name = "Auxiliary MiniSat Distribution Port"
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"R" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/syndicake{
+	pixel_y = 3
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
+"U" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/custom/powered)
+"V" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4;
+	name = "tactical chair"
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"W" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 6
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
+"Z" = (
+/obj/structure/grille,
+/obj/structure/window/plastitanium,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/custom/powered)
 
 (1,1,1) = {"
 a
 a
 a
-b
-d
-d
-j
-j
-d
-d
-b
+M
+M
+M
+F
+M
+M
+M
+M
 "}
 (2,1,1) = {"
-b
-d
-d
-d
-l
-l
-f
-f
-f
-n
-p
+M
+M
+M
+M
+V
+V
+v
+v
+W
+z
+m
 "}
 (3,1,1) = {"
-c
-f
-f
-d
-f
-f
-f
-f
-f
 n
-q
+y
+k
+Z
+k
+U
+j
+J
+A
+z
+m
 "}
 (4,1,1) = {"
-c
-g
-f
-j
-f
-f
-f
-f
-f
 n
-q
+o
+r
+x
+k
+R
+c
+N
+P
+B
+m
 "}
 (5,1,1) = {"
-c
-f
-f
-d
-f
-f
-f
-f
-f
 n
-q
+w
+k
+Z
+k
+f
+K
+u
+L
+B
+m
 "}
 (6,1,1) = {"
-b
-d
-d
-d
-m
-m
-f
-f
-f
-n
-r
+M
+M
+M
+M
+l
+l
+k
+Q
+O
+B
+G
 "}
 (7,1,1) = {"
 a
 a
 a
-b
-d
-d
-j
-j
-d
-d
-b
+M
+M
+M
+F
+M
+M
+M
+M
 "}
