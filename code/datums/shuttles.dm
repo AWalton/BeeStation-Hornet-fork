@@ -322,6 +322,13 @@
 	admin_notes = "An abomination with no functional medbay, sections missing, and some very fragile windows. Surprisingly airtight."
 	movement_force = list("KNOCKDOWN" = 3, "THROW" = 2)
 
+/datum/map_template/shuttle/emergency/syndicate
+	suffix = "syndicate"
+	name = "Syndicate GM Battlecruiser"
+	credit_cost = 20000
+	description = "Manufactured by the Gorlex Marauders, this cruiser has been specially designed with high occupancy in mind, while remaining robust in combat situations. Features a fully stocked EVA storage, armory, medbay, and bar!"
+	admin_notes = "An emag exclusive, stocked with syndicate equipment and turrets that will target any simplemob."
+
 /datum/map_template/shuttle/emergency/narnar
 	suffix = "narnar"
 	name = "Shuttle 667"
